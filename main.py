@@ -34,7 +34,7 @@ if wlan.isconnected():
     print('ingsystem network : ', wlan.ifconfig())
 
     display.fill(0)
-    display.text('IP/Subnet/GW:', 0, 0)
+    display.text('ingsystem network', 0, 0)
     display.text(wlan.ifconfig()[0], 0, 20)
     display.text(wlan.ifconfig()[1], 0, 38)
     display.text(wlan.ifconfig()[2], 0, 56)
