@@ -31,7 +31,7 @@ if not wlan.isconnected():
 if wlan.isconnected():
     led.value(1)
 
-    print('Network Information : ', wlan.ifconfig())
+    print('ingsystem network : ', wlan.ifconfig())
 
     display.fill(0)
     display.text('IP/Subnet/GW:', 0, 0)
