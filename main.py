@@ -30,7 +30,9 @@ if not wlan.isconnected():
 
 if wlan.isconnected():
     led.value(1)
-
+    sleep(1)
+    led.value(0)
+    sleep(1)
     print('ingsystem network : ', wlan.ifconfig())
 
     display.fill(0)
