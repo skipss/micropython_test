@@ -41,12 +41,7 @@ if wlan.isconnected():
     display.text(wlan.ifconfig()[1], 0, 38)
     display.text(wlan.ifconfig()[2], 0, 56)
     display.show()
-    while True:
-      led.value(1)
-      sleep(1)
-      led.value(0)
-      sleep(1)
-      print('ingsystem network : ', wlan.ifconfig())    
+   
     
 
 
